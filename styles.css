@@ -7,13 +7,14 @@ p {
   background-image: url(images/uv-map.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 0%;
 
   min-height: 100%;
   min-width: 100%;
 
   margin: 0;
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: 0px;
 
   z-index: -1;
