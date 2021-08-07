@@ -15,3 +15,7 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+.box {
+  background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg)
+}
