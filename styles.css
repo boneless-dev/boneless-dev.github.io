@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 
-.main {
+.main-content {
   animation: rise-up 2000ms ease-in-out;
 }
 
