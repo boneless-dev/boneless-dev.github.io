@@ -7,8 +7,8 @@ html {
   min-height: 100%;
 }
 
-.background-image-wood {
-  color: pink;
+.background-image {
+  background-image: url(images/uv-map.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
