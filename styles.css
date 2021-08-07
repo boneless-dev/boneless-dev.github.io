@@ -7,26 +7,28 @@ html {
   min-height: 100%;
 }
 
-wood-plank-thingy {
-  background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.main {
   animation: rise-up 2000ms ease-in-out;
 }
 
 @keyframes rise-up {
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100% {
-        opacity: 1;
-		transform: none;
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
+.wood-plank-thingy {
+  background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-blurryie-box-lmao {
+.blurryie-box-lmao {
   height: 80%;
   width: 80%;
   color: pink;
