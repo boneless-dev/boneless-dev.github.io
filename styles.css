@@ -12,7 +12,9 @@ p {
   min-width: 100%;
 
   margin: 0;
-  position: center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 
   z-index: -1;
 }
