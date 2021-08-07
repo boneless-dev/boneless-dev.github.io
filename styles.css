@@ -2,13 +2,15 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-wood-plank-thingy,
+body,
 html {
   min-height: 100%;
 }
 
 .main-content {
   animation: rise-up 2000ms ease-in-out;
+  height: 100%;
+  width: 100%;
 }
 
 @keyframes rise-up {
