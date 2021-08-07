@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 
-body {
+.background-image-wood {
   background-image: url(images/uv-map.png);
   background-repeat: no-repeat;
   background-size: cover;
