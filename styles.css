@@ -19,6 +19,7 @@ p {
 .box {
   background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg);
   
+  size: 200px 200px;
   padding: 100px;
   margin: 100px;
 }
