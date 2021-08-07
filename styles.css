@@ -2,15 +2,15 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
+body,
+html {
+  min-height: 100%;
+}
+
 body {
   background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-body,
-html {
-  min-height: 100%;
 }
 
 .main-content {
@@ -30,7 +30,7 @@ html {
   }
 }
 
-.blurryie-box-lmao {
+.blurry-box {
   height: 80%;
   width: 80%;
   color: pink;
