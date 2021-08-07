@@ -11,6 +11,13 @@ body {
   background-image: url(images/uv-map.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .main-content {
