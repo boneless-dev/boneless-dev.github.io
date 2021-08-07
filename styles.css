@@ -8,7 +8,7 @@ html {
 }
 
 .background-image-wood {
-  background-image: url(images/uv-map.png);
+  color: pink;
   background-repeat: no-repeat;
   background-size: cover;
 }
