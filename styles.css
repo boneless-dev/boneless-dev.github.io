@@ -17,9 +17,8 @@ p {
 }
 
 .box {
-  color: orange;
-  padding: 100px;
-  margin: 100px;
   background-image: url(images/069B91BE-A4DF-480D-964D-6903F07EE352.jpeg);
   
+  padding: 100px;
+  margin: 100px;
 }
