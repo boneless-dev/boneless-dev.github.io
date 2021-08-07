@@ -2,13 +2,12 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-background-image,
 body,
 html {
   min-height: 100%;
 }
 
-.background-image {
+body {
   background-image: url(images/uv-map.png);
   background-repeat: no-repeat;
   background-size: cover;
