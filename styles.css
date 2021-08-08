@@ -39,15 +39,26 @@ p {
   }
 }
 
-.blurry-box:before {
+.blurry-box{
   position: relative;
   max-width: 600px;
   padding: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   color: #000;
-
-  filter: blur(10px);
 }
 
+.blurry-box:before{
+  content: '';
+  position: absolute;
+
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+
+  background: url(images/wood-tex.JPG);
+  background-attachment: fixed;
+  filter: blur(10px);
+}
 
