@@ -61,7 +61,7 @@ p {
   right: -20px;
 
   background: url(images/wood-tex.JPG);
-  backgrount-attachment: fixed;
+  background-attachment: fixed;
   background-position: 50% 50%;
 
   filter: blur(0px);
