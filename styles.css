@@ -39,7 +39,7 @@ p {
   }
 }
 
-.blurry-box {
+.blurry-box:before {
   position: relative;
   max-width: 600px;
   padding: 50px;
