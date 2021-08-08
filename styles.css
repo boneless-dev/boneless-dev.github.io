@@ -60,6 +60,6 @@ p {
   left: -20px;
   right: -20px;
 
-  backdrop-filter: blur(0px);
+  backdrop-filter: blur(10px);
 }
 
