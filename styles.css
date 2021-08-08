@@ -49,16 +49,6 @@ p {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   color: #000;
-}
-
-.blurry-box:before{
-  content: '';
-  position: absolute;
-
-  top: -20px;
-  bottom: -20px;
-  left: -20px;
-  right: -20px;
 
   backdrop-filter: blur(10px);
 }
