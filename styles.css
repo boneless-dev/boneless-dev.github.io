@@ -40,7 +40,12 @@ p {
 }
 
 .blurry-box {
-  height: 80%;
-  width: 80%;
-  background-color: pink;
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  color: #000;
 }
+
+
