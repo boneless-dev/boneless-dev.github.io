@@ -20,7 +20,7 @@ p {
 
   z-index: -1;
 
-  background-filter: blur(10px);
+  filter: blur(10px);
 }
 
 .main-content {
