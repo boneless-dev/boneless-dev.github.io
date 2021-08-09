@@ -45,11 +45,13 @@ body {
 
 .floating-box {
   position: relative;
-  max-width: 600px;
   padding: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   overflow: hidden;
   color: #000;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
 
   border-radius: 20px;
 }
