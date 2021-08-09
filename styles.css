@@ -59,7 +59,7 @@ p {
   }
 }
 
-.content-box {
+.floating-box {
   position: relative;
   max-width: 600px;
   padding: 50px;
