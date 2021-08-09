@@ -69,7 +69,7 @@ body {
   -ms-backdrop-filter: blur(var(--floating-box-blur));
 
   left: 50%;
-  bottom: 0%;
+  bottom: -50%;
 
   border-radius: 20px;
 }
