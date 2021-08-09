@@ -6,7 +6,7 @@ p {
 
 .background-image {
   background-image: url(images/wood-tex.JPG);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: 50% 0%;
 
@@ -21,6 +21,7 @@ p {
   z-index: -1;
 
   animation: blur-bg 2000ms ease-in-out;
+  filter: blur(10px);
 }
 
 .main-content {
