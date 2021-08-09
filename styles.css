@@ -49,10 +49,12 @@ body {
 
 .floating-box {
   position: relative;
-  padding: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   overflow: hidden;
   color: white;
+
+  height: 350px;
+  width: 350px;
 
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(var(--floating-box-blur));
