@@ -17,11 +17,11 @@ p {
   background-size: cover;
   background-position: 50% 0%;
 
-  min-height: 100%;
-  min-width: 100%;
+  height: 100%;
+  width: 100%;
 
   margin: 0;
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 0px;
 
