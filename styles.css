@@ -19,9 +19,11 @@ p {
 
   z-index: -1;
 
-  border: 100px solid black;
+  border: 100px solid transparent;
+  padding: 0px;
+  border-image: url(images/wood-tex.JPG) 50 round;
 
-  filter: blur(10px);
+  filter: blur(0px);
   animation: blur-bg 2000ms ease-in-out;
 }
 
