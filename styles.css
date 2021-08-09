@@ -54,15 +54,4 @@ body {
   border-radius: 20px;
 }
 
-.floating-box:before{
-  content: '';
-
-  background-image: url(images/wood-tex.JPG);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  background-attachment: fixed;
-
-  filter: blur(20px);
-}
 
