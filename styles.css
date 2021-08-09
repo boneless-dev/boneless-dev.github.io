@@ -1,3 +1,7 @@
+:root {
+  --floating-box-blur: 2000px;
+}
+
 p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   z-index: 2;
@@ -51,11 +55,11 @@ body {
   color: white;
 
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  -moz-backdrop-filter: blur(20px);
-  -o-backdrop-filter: blur(20px);
-  -ms-backdrop-filter: blur(20px);
+  backdrop-filter: blur(var(--floating-box-blur));
+  -webkit-backdrop-filter: blur(var(--floating-box-blur));
+  -moz-backdrop-filter: blur(var(--floating-box-blur));
+  -o-backdrop-filter: blur(var(--floating-box-blur));
+  -ms-backdrop-filter: blur(var(--floating-box-blur));
 
   display: flex;
   justify-content: center;
