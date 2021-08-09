@@ -20,8 +20,8 @@ p {
 
   z-index: -1;
 
-  animation: blur-bg 2000ms ease-in-out;
   filter: blur(10px);
+  animation: blur-bg 2000ms ease-in-out;
 }
 
 .main-content {
