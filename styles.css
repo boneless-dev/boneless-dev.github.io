@@ -8,7 +8,8 @@ p {
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
 
   background-image: url(images/wood-tex.JPG);
   background-repeat: no-repeat;
