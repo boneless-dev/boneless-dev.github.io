@@ -8,8 +8,13 @@ p {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-image: url(images/wood-tex.JPG);
   background-repeat: no-repeat;
@@ -23,6 +28,7 @@ body {
   height: 100%;
   width: 100%;
 
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
