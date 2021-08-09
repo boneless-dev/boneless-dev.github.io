@@ -60,6 +60,6 @@ p {
   overflow: hidden;
   color: #000;
 
-  backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
 
