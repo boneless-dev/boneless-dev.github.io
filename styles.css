@@ -6,7 +6,7 @@ p {
 .bg-image {
   background-image: url(images/wood-tex.JPG);
   background-repeat: repeat;
-  background-size: contain;
+  background-size: 33% 33%;
   background-position: 50% 0%;
 
   height: 300%;
