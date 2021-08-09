@@ -7,7 +7,8 @@ p {
   background-image: url(images/wood-tex.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
+  background-attachment: fixed;
 
   height: 100%;
   width: 100%;
@@ -60,6 +61,14 @@ p {
 }
 
 .floating-box:before{
+  content: '';
+
+  background-image: url(images/wood-tex.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+
   filter: blur(20px);
 }
 
