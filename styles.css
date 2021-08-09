@@ -48,10 +48,14 @@ body {
   padding: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   overflow: hidden;
-  color: #000;
+  color: white;
 
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(20px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border-radius: 20px;
 }
