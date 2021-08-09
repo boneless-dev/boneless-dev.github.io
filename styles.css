@@ -53,7 +53,7 @@ body {
 }
 
 .floating-box {
-  position: relative;
+  position: absolute;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   overflow: hidden;
   color: white;
@@ -69,7 +69,7 @@ body {
   -ms-backdrop-filter: blur(var(--floating-box-blur));
 
   left: 50%;
-  bottom: -50%;
+  top: 50%;
 
   border-radius: 20px;
 }
