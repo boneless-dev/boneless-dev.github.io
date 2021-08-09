@@ -12,7 +12,13 @@ body {
   width: 100%;
 
   margin: 0;
+
   display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  -ms-display: flex;
+
   justify-content: center;
   align-items: center;
 
@@ -29,7 +35,13 @@ body {
   width: 100%;
 
   margin: 0;
+
   display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  -ms-display: flex;
+
   justify-content: center;
   align-items: center;
 
