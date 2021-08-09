@@ -29,16 +29,6 @@ body {
   width: 100%;
 
   margin: 0;
-
-  display: flex;
-  -webkit-display: flex;
-  -moz-display: flex;
-  -o-display: flex;
-  -ms-display: flex;
-
-  justify-content: center;
-  align-items: center;
-
   z-index: 2;
 }
 
@@ -78,9 +68,10 @@ body {
   -o-backdrop-filter: blur(var(--floating-box-blur));
   -ms-backdrop-filter: blur(var(--floating-box-blur));
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
 
   border-radius: 20px;
 }
