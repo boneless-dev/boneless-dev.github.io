@@ -21,7 +21,6 @@ p {
   z-index: -1;
 
   animation: blur-bg 2000ms ease-in-out;
-  filter: blur(0px);
 }
 
 .main-content {
