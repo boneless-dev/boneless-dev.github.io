@@ -25,11 +25,6 @@ body {
 
 .main-content {
   animation: rise-up 2000ms ease-in-out;
-  height: 100%;
-  width: 100%;
-
-  margin: 0;
-  z-index: 2;
 }
 
 @keyframes blur-bg {
@@ -53,7 +48,6 @@ body {
 }
 
 .floating-box {
-  position: absolute;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   overflow: hidden;
   color: white;
@@ -68,8 +62,11 @@ body {
   -o-backdrop-filter: blur(var(--floating-box-blur));
   -ms-backdrop-filter: blur(var(--floating-box-blur));
 
-  left: 50%;
+  margin: 0;
+  position: absolute;
   top: 50%;
+  left: 50%;
+  margin-right: -50%;
   transform: translate(-50%, -50%)
 
   border-radius: 20px;
