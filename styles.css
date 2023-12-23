@@ -9,7 +9,19 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: calc(3vh);
     user-select: none;
-    color: white;
+    color: rgb(255, 255, 255);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.err {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(1.5vh);
+    user-select: none;
+    color: rgb(128, 128, 128);
 
     position: fixed;
     top: 50%;
